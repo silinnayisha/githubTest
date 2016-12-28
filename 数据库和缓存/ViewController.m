@@ -9,6 +9,8 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *keyTextFiled;
+@property (weak, nonatomic) IBOutlet UITextField *valueTextFiled;
 
 @end
 
@@ -19,6 +21,14 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (IBAction)save:(id)sender {
+}
+- (IBAction)updata:(id)sender {
+}
+- (IBAction)delete:(id)sender {
+}
+- (IBAction)query:(id)sender {
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

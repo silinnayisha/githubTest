@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "518EF945B1F2D9F24472B9CD0A6982B788393ECD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "518EF945B1F2D9F24472B9CD0A6982B788393ECD" : 9223372036854775807,
+    "92FCE098B566BAAD9A37B9CCF1F71B94841E296F" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2D3E7261-402C-4A98-9775-A77BCA02048C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "518EF945B1F2D9F24472B9CD0A6982B788393ECD" : "%E6%95%B0%E6%8D%AE%E5%BA%93%E5%92%8C%E7%BC%93%E5%AD%98\/",
+    "92FCE098B566BAAD9A37B9CCF1F71B94841E296F" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "数据库和缓存",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "数据库和缓存.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/silinnayisha\/githubTest.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "518EF945B1F2D9F24472B9CD0A6982B788393ECD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:dengzhaotai\/vlc_play.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "92FCE098B566BAAD9A37B9CCF1F71B94841E296F"
+    }
+  ]
+}
