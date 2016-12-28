@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		513426D11E12571D000CED3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 513426D01E12571D000CED3D /* main.m */; };
+		513426D41E12571D000CED3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 513426D31E12571D000CED3D /* AppDelegate.m */; };
+		513426D71E12571D000CED3D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 513426D61E12571D000CED3D /* ViewController.m */; };
+		513426DA1E12571D000CED3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 513426D81E12571D000CED3D /* Main.storyboard */; };
+		513426DC1E12571D000CED3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 513426DB1E12571D000CED3D /* Assets.xcassets */; };
+		513426DF1E12571D000CED3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 513426DD1E12571D000CED3D /* LaunchScreen.storyboard */; };
+		513426EA1E12571D000CED3D /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 513426E91E12571D000CED3D /* ______Tests.m */; };
+		513426F51E12571D000CED3D /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 513426F41E12571D000CED3D /* ______UITests.m */; };
+		978E214939D5CC66138E4CB8 /* libPods-数据库和缓存.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E480B7486AA30B60B1CDB085 /* libPods-数据库和缓存.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		513426E61E12571D000CED3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 513426C41E12571D000CED3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 513426CB1E12571D000CED3D;
+			remoteInfo = "数据库和缓存";
+		};
+		513426F11E12571D000CED3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 513426C41E12571D000CED3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 513426CB1E12571D000CED3D;
+			remoteInfo = "数据库和缓存";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07DDE1A8A814F7F24DCCD640 /* Pods-数据库和缓存.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-数据库和缓存.release.xcconfig"; path = "Pods/Target Support Files/Pods-数据库和缓存/Pods-数据库和缓存.release.xcconfig"; sourceTree = "<group>"; };
+		513426CC1E12571D000CED3D /* 数据库和缓存.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "数据库和缓存.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		513426D01E12571D000CED3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		513426D21E12571D000CED3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		513426D31E12571D000CED3D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		513426D51E12571D000CED3D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		513426D61E12571D000CED3D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		513426D91E12571D000CED3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		513426DB1E12571D000CED3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		513426DE1E12571D000CED3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		513426E01E12571D000CED3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		513426E51E12571D000CED3D /* 数据库和缓存Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "数据库和缓存Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		513426E91E12571D000CED3D /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
+		513426EB1E12571D000CED3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		513426F01E12571D000CED3D /* 数据库和缓存UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "数据库和缓存UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		513426F41E12571D000CED3D /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
+		513426F61E12571D000CED3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E480B7486AA30B60B1CDB085 /* libPods-数据库和缓存.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-数据库和缓存.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6E4C437DB18077E6E179505 /* Pods-数据库和缓存.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-数据库和缓存.debug.xcconfig"; path = "Pods/Target Support Files/Pods-数据库和缓存/Pods-数据库和缓存.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		513426C91E12571D000CED3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				978E214939D5CC66138E4CB8 /* libPods-数据库和缓存.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		513426E21E12571D000CED3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		513426ED1E12571D000CED3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		513426C31E12571D000CED3D = {
+			isa = PBXGroup;
+			children = (
+				513426CE1E12571D000CED3D /* 数据库和缓存 */,
+				513426E81E12571D000CED3D /* 数据库和缓存Tests */,
+				513426F31E12571D000CED3D /* 数据库和缓存UITests */,
+				513426CD1E12571D000CED3D /* Products */,
+				88707212FFF3028D288C08BC /* Pods */,
+				7E5179E9178801498D3DCBF8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		513426CD1E12571D000CED3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				513426CC1E12571D000CED3D /* 数据库和缓存.app */,
+				513426E51E12571D000CED3D /* 数据库和缓存Tests.xctest */,
+				513426F01E12571D000CED3D /* 数据库和缓存UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		513426CE1E12571D000CED3D /* 数据库和缓存 */ = {
+			isa = PBXGroup;
+			children = (
+				513426D21E12571D000CED3D /* AppDelegate.h */,
+				513426D31E12571D000CED3D /* AppDelegate.m */,
+				513426D51E12571D000CED3D /* ViewController.h */,
+				513426D61E12571D000CED3D /* ViewController.m */,
+				513426D81E12571D000CED3D /* Main.storyboard */,
+				513426DB1E12571D000CED3D /* Assets.xcassets */,
+				513426DD1E12571D000CED3D /* LaunchScreen.storyboard */,
+				513426E01E12571D000CED3D /* Info.plist */,
+				513426CF1E12571D000CED3D /* Supporting Files */,
+			);
+			path = "数据库和缓存";
+			sourceTree = "<group>";
+		};
+		513426CF1E12571D000CED3D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				513426D01E12571D000CED3D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		513426E81E12571D000CED3D /* 数据库和缓存Tests */ = {
+			isa = PBXGroup;
+			children = (
+				513426E91E12571D000CED3D /* ______Tests.m */,
+				513426EB1E12571D000CED3D /* Info.plist */,
+			);
+			path = "数据库和缓存Tests";
+			sourceTree = "<group>";
+		};
+		513426F31E12571D000CED3D /* 数据库和缓存UITests */ = {
+			isa = PBXGroup;
+			children = (
+				513426F41E12571D000CED3D /* ______UITests.m */,
+				513426F61E12571D000CED3D /* Info.plist */,
+			);
+			path = "数据库和缓存UITests";
+			sourceTree = "<group>";
+		};
+		7E5179E9178801498D3DCBF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E480B7486AA30B60B1CDB085 /* libPods-数据库和缓存.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88707212FFF3028D288C08BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6E4C437DB18077E6E179505 /* Pods-数据库和缓存.debug.xcconfig */,
+				07DDE1A8A814F7F24DCCD640 /* Pods-数据库和缓存.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		513426CB1E12571D000CED3D /* 数据库和缓存 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 513426F91E12571D000CED3D /* Build configuration list for PBXNativeTarget "数据库和缓存" */;
+			buildPhases = (
+				C6B1D671AF5C8624947D320E /* [CP] Check Pods Manifest.lock */,
+				513426C81E12571D000CED3D /* Sources */,
+				513426C91E12571D000CED3D /* Frameworks */,
+				513426CA1E12571D000CED3D /* Resources */,
+				5E7F46D8AD246E9091F7E9FC /* [CP] Embed Pods Frameworks */,
+				ACDE654E99CD2055BFE92E2D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "数据库和缓存";
+			productName = "数据库和缓存";
+			productReference = 513426CC1E12571D000CED3D /* 数据库和缓存.app */;
+			productType = "com.apple.product-type.application";
+		};
+		513426E41E12571D000CED3D /* 数据库和缓存Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 513426FC1E12571D000CED3D /* Build configuration list for PBXNativeTarget "数据库和缓存Tests" */;
+			buildPhases = (
+				513426E11E12571D000CED3D /* Sources */,
+				513426E21E12571D000CED3D /* Frameworks */,
+				513426E31E12571D000CED3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				513426E71E12571D000CED3D /* PBXTargetDependency */,
+			);
+			name = "数据库和缓存Tests";
+			productName = "数据库和缓存Tests";
+			productReference = 513426E51E12571D000CED3D /* 数据库和缓存Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		513426EF1E12571D000CED3D /* 数据库和缓存UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 513426FF1E12571D000CED3D /* Build configuration list for PBXNativeTarget "数据库和缓存UITests" */;
+			buildPhases = (
+				513426EC1E12571D000CED3D /* Sources */,
+				513426ED1E12571D000CED3D /* Frameworks */,
+				513426EE1E12571D000CED3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				513426F21E12571D000CED3D /* PBXTargetDependency */,
+			);
+			name = "数据库和缓存UITests";
+			productName = "数据库和缓存UITests";
+			productReference = 513426F01E12571D000CED3D /* 数据库和缓存UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		513426C41E12571D000CED3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = ducaiyan;
+				TargetAttributes = {
+					513426CB1E12571D000CED3D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					513426E41E12571D000CED3D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 513426CB1E12571D000CED3D;
+					};
+					513426EF1E12571D000CED3D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 513426CB1E12571D000CED3D;
+					};
+				};
+			};
+			buildConfigurationList = 513426C71E12571D000CED3D /* Build configuration list for PBXProject "数据库和缓存" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 513426C31E12571D000CED3D;
+			productRefGroup = 513426CD1E12571D000CED3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				513426CB1E12571D000CED3D /* 数据库和缓存 */,
+				513426E41E12571D000CED3D /* 数据库和缓存Tests */,
+				513426EF1E12571D000CED3D /* 数据库和缓存UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		513426CA1E12571D000CED3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				513426DF1E12571D000CED3D /* LaunchScreen.storyboard in Resources */,
+				513426DC1E12571D000CED3D /* Assets.xcassets in Resources */,
+				513426DA1E12571D000CED3D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		513426E31E12571D000CED3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		513426EE1E12571D000CED3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E7F46D8AD246E9091F7E9FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-数据库和缓存/Pods-数据库和缓存-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACDE654E99CD2055BFE92E2D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-数据库和缓存/Pods-数据库和缓存-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6B1D671AF5C8624947D320E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		513426C81E12571D000CED3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				513426D71E12571D000CED3D /* ViewController.m in Sources */,
+				513426D41E12571D000CED3D /* AppDelegate.m in Sources */,
+				513426D11E12571D000CED3D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		513426E11E12571D000CED3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				513426EA1E12571D000CED3D /* ______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		513426EC1E12571D000CED3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				513426F51E12571D000CED3D /* ______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		513426E71E12571D000CED3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 513426CB1E12571D000CED3D /* 数据库和缓存 */;
+			targetProxy = 513426E61E12571D000CED3D /* PBXContainerItemProxy */;
+		};
+		513426F21E12571D000CED3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 513426CB1E12571D000CED3D /* 数据库和缓存 */;
+			targetProxy = 513426F11E12571D000CED3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		513426D81E12571D000CED3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				513426D91E12571D000CED3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		513426DD1E12571D000CED3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				513426DE1E12571D000CED3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		513426F71E12571D000CED3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		513426F81E12571D000CED3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		513426FA1E12571D000CED3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6E4C437DB18077E6E179505 /* Pods-数据库和缓存.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "数据库和缓存/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dcy.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		513426FB1E12571D000CED3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07DDE1A8A814F7F24DCCD640 /* Pods-数据库和缓存.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "数据库和缓存/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dcy.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		513426FD1E12571D000CED3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "数据库和缓存Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dcy.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/数据库和缓存.app/数据库和缓存";
+			};
+			name = Debug;
+		};
+		513426FE1E12571D000CED3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "数据库和缓存Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dcy.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/数据库和缓存.app/数据库和缓存";
+			};
+			name = Release;
+		};
+		513427001E12571D000CED3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "数据库和缓存UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dcy.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "数据库和缓存";
+			};
+			name = Debug;
+		};
+		513427011E12571D000CED3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "数据库和缓存UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dcy.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "数据库和缓存";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		513426C71E12571D000CED3D /* Build configuration list for PBXProject "数据库和缓存" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				513426F71E12571D000CED3D /* Debug */,
+				513426F81E12571D000CED3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		513426F91E12571D000CED3D /* Build configuration list for PBXNativeTarget "数据库和缓存" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				513426FA1E12571D000CED3D /* Debug */,
+				513426FB1E12571D000CED3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		513426FC1E12571D000CED3D /* Build configuration list for PBXNativeTarget "数据库和缓存Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				513426FD1E12571D000CED3D /* Debug */,
+				513426FE1E12571D000CED3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		513426FF1E12571D000CED3D /* Build configuration list for PBXNativeTarget "数据库和缓存UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				513427001E12571D000CED3D /* Debug */,
+				513427011E12571D000CED3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 513426C41E12571D000CED3D /* Project object */;
+}
