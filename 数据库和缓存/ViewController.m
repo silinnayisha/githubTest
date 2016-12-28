@@ -22,12 +22,16 @@
 }
 
 - (IBAction)save:(id)sender {
+    NSLog(@"save key:%@ value:%@",_keyTextFiled,_valueTextFiled);
 }
 - (IBAction)updata:(id)sender {
+    NSLog(@"updata key:%@ value:%@",_keyTextFiled,_valueTextFiled);
 }
 - (IBAction)delete:(id)sender {
+    NSLog(@"delete key:%@ value:%@",_keyTextFiled,_valueTextFiled);
 }
 - (IBAction)query:(id)sender {
+    NSLog(@"query key:%@ value:%@",_keyTextFiled,_valueTextFiled);
 }
 
 - (void)didReceiveMemoryWarning {
