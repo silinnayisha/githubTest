@@ -22,7 +22,7 @@
 }
 
 - (IBAction)save:(id)sender {
-    NSLog(@"save key:%@ value:%@",_keyTextFiled,_valueTextFiled);
+    
 }
 - (IBAction)updata:(id)sender {
     NSLog(@"updata key:%@ value:%@",_keyTextFiled,_valueTextFiled);
